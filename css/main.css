@@ -59,9 +59,9 @@ textarea::placeholder{
   border-radius: 10px; 
 }
 .contact-form.response, p{
-  font-size: 2em;
+  font-size: 1.8em;
   font-family: sans-serif;
-  text-align: justify;
+  /* text-align: justify; */
   color:#6505ff;
 } 
 /* .contact-form-loader{
