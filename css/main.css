@@ -47,21 +47,23 @@ textarea::placeholder{
 .none{
   display: none;
 }
-.contact-form.response{
-  font-size: 1em;
-  font-family: sans-serif;
-  border-radius: 10px;
 
-
-}
 .contact-form p{
   background-color:#f5ade7;
   text-align: justify;
-  font-size: 16px;
+  /* font-size: 16px; */
   margin-bottom: 35px;
-
-
 }
+
+.contact-form.response{
+  border-radius: 10px; 
+}
+.contact-form.response, p{
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color:#6505ff;
+} 
 /* .contact-form-loader{
   display: flex;
   justify-content: center;
