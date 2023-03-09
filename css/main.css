@@ -61,7 +61,7 @@ textarea::placeholder{
 .contact-form.response, p{
   font-size: 2em;
   font-family: 'Montserrat', sans-serif;
-  text-align: center;
+  text-align: justify;
   color:#6505ff;
 } 
 /* .contact-form-loader{
