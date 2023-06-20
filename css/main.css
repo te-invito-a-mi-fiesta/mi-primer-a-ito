@@ -351,14 +351,35 @@ a {
   justify-content: center;
   align-items: center;
  width: 100%;
+ flex-direction: column;
+}
+.cuandoydonde{
+  display: flex;
+  flex-direction: column;
 }
 
+.texto{
+  display: flex;
+  justify-content: center;
+  /* background-color: #f5ade7; */
+  background-color: var(--theme-color);
+  /* border-radius: 15%; */
+  text-align: center;
+  margin-right: 5px;
+}
 .cuandoydonde p{
   font-size: 1.5em;
   font-family: 'Satisfy', cursive;
   color: #54025c;
 margin: 28px;
 } 
+.datos p{
+  font-size: 1.5em;
+  font-family: 'Lilita One', cursive;
+  color: #54025c;
+margin: 28px;
+
+}
 .dressCode{
   display: flex;
   justify-content: center;
@@ -380,6 +401,9 @@ padding-top: 30px;
  border-radius: 10px; 
 
 }
+.fotofinal{
+  margin-bottom: 20px;
+}
 
 
 /*modal*/
@@ -391,12 +415,14 @@ padding-top: 30px;
   align-items: center;
   justify-content: center;
   /* End center */
-  background: rgb(252, 101, 206);
-  /* background: -webkit-linear-gradient(to right, #834d9b, #d04ed6);
-  background: linear-gradient(to right, #834d9b, #d04ed6); */
+   background: rgb(252, 101, 206); 
+   /* background: -webkit-linear-gradient(to right, #834d9b, #d04ed6);
+  background: linear-gradient(to right, #834d9b, #d04ed6);  */
   /* border: 1px solid #000; */
   border-radius: 30px;
   flex-direction: column;
+  margin-bottom: 10px;
+  box-shadow: #333;
 }
 
 .wrapper a {
@@ -406,7 +432,7 @@ padding-top: 30px;
   /* background-color: rgb(252, 101, 206); */
   border-radius: 3px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #000000;
   font-family: 'Roboto', sans-serif;
   text-align: center;
   cursor: pointer;
@@ -496,24 +522,24 @@ padding-top: 30px;
   -ms-transform-origin:0 0;
   -o-transform-origin:0 0;
   transform-origin:0 0;
-  background-color:#f69c9b;
+  background-color: #ff58ca;
   background-image:"/img/pause-play.png";
   letter-spacing:2px;
   font-family:"montserrat";
   color:#fff;
   border-radius:3px 0 0 3px;
   font-weight:90;
-  font-size:0.6em;
+  /* font-size:0.6em; */
   cursor:pointer;
-  width:60px;
+  width:50px;
   height:50px;
   z-index:1000;
-  text-align: center;
+  /* text-align: center; */
   
 }
 .playPauseBTN i{
   margin-top: 10px;
-  margin-left: 18px;
+  margin-left: 14px;
 }
 
 
